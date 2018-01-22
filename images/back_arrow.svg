@@ -1,0 +1,22 @@
+<svg width="10" height="15" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(5 8)">
+<g id="Group">
+<g id="Canvas">
+<g id="Graphics / Navbar &#38; Toolbar Icons / Blue / Back Arrow">
+<g id="Back Arrow Blue">
+<g id="Back">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-4.57995 -7.86917)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 8.8346 0.294765C 8.4252 -0.098255 7.77863 -0.098255 7.36923 0.294765L 0 7.36917L 7.36923 14.4436C 7.77863 14.8366 8.4252 14.8366 8.8346 14.4436C 9.26834 14.0272 9.26834 13.3335 8.8346 12.9171L 3.05542 7.36917L 8.8346 1.8212C 9.26833 1.40482 9.26834 0.711143 8.8346 0.294765Z"/>
+</defs>
+</svg>
