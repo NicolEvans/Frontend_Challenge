@@ -7,6 +7,7 @@ body {
   font-size: 14px;
   font-family: sans-serif;
   display: block;
+  width: 375px;
 }
 
 statusBar {
@@ -53,7 +54,7 @@ h2 {
   padding-top: 7px;
   letter-spacing: 3px;
   float: left;
-  width: 84%;
+  width: 83.5%;
 }
 
 .info_button {
@@ -67,7 +68,6 @@ ul {
   display: inline-block;
 }
 
-
 .routeone {
   font-size: 1.6em;
   font-weight: bolder;
@@ -78,13 +78,12 @@ ul {
 .destination {
   font-size: 1.3em;
   display: inline-block;
-  width: 62%;
+  width: 60%;
 }
 
 .alertSymbol {
   display: inline-block;
-  width: 7%;
-  margin-left: 38px;
+  padding-left: 42px;
 }
 
 .routetwo {
@@ -92,6 +91,7 @@ ul {
   letter-spacing: 3px;
   font-weight: bold;
   text-transform: uppercase;
+  line-height: 2em;
 }
 
 .time {
@@ -99,28 +99,30 @@ ul {
   font-size: 1.55em;
   font-weight: bold;
   display: inline-block;
-  width: 7%;
+  width: 12%;
   text-align: right;
-  margin: 0px 7px;
 }
 
 .minutes {
   color: #0A801D;
   display: inline-block;
-  width: 5%;
+  width: 8%;
+  padding-left: 5px;
+  text-align: right;
 }
 
 .resumeTime {
   font-size: 1.2em;
   display: inline-block;
-  width: 10%;
+  width: 12%;
   text-align: right;
-  margin-right: 7px;
 }
 
 .resumeAmPm {
   display: inline-block;
-  margin-right: 20px;
+  text-align: right;
+  width: 8%;
+  padding-left: 5px;
 }
 
 hr {
