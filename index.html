@@ -8,86 +8,116 @@
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 </head>
 <body>
-    <statusBar>
-      <img src="/images/statusBar.svg">
-    </statusBar>
-    <topnav>
+    <div class="statusBar">
+      <img src="/images/statusBar.svg" alt="status-bar">
+    </div>
+    <nav>
       <img src="/images/back_arrow.svg" alt="previous screen arrow" class="arrow">
     <h1> Washington &amp;<br>
     State </h1>
-  </topnav>
+  </nav>
     <section>
-    <heading>
-    <h2> Reroutes </h2>
-    <img src="/images/info.svg" alt="additional information button" class="info_button">
-    </heading>
-    <ul>
-     <li class="routeone"> 6x </li>
+      <header>
+        <h2> Reroutes </h2>
+        <img src="/images/info.svg" alt="additional information button" class="info_button">
+      </header>
+      <ul class="busInfo">
+        <li>
+          <ul class="route">
+            <li class="busLine"> 6x </li>
+          </ul>
+        </li>
         <li class="destination"> to Jackson Park Express </li>
-        <img src="/images/alert.svg" alt="alert symbol" class="alertSymbol">
-    </ul>
-</section>
-<section>
-  <heading>
-    <h2> In service </h2>
-    <img src="/images/info.svg" alt="additional information button" class="info_button">
-  </heading>
-    <ul>
-       <li class="routeone"> 60 </li>
-        <li class="destination"> to Randolph/Harbor Dr </li>
-        <li class="time"> 1</li><li class="minutes">min</li>
-        <li class="routetwo"> east </li>
-    </ul>
-  <hr>
-    <ul>
-        <li class="routeone"> 124 </li>
-        <li class="destination"> to Navy Pier </li>
-        <li class="time"> 4</li><li class="minutes">min</li>
-        <li class="routetwo"> east </li>
-    </ul>
-  <hr>
-    <ul>
-      <li class="routeone"> 151 </li>
-        <li class="destination"> to Devon/Clark </li>
-        <li class="time"> 10</li><li class="minutes">min</li>
-        <li class="routetwo"> north </li>
-    </ul>
-  <hr>
-    <ul>
-        <li class="routeone"> J14 </li>
-        <li class="destination"> to 103rd/Stony Island </li>
-        <li class="time"> 12</li><li class="minutes">min</li>
-        <li class="routetwo"> south </li>
-    </ul>
-  <hr>
-    <ul>
-        <li class="routeone"> 124 </li>
-        <li class="destination"> to Navy Pier </li>
-        <li class="time"> 15</li><li class="minutes">min</li>
-        <li class="routetwo"> south </li>
-    </ul>
-</section>
-<section>
-  <heading>
-    <h2> Out of service </h2>
-    <img src="/images/info.svg" alt="additional information button" class="info_button">
-  </heading>
-    <ul>
-        <li class="routeone"> 4 </li>
-        <li class="destination"> to Cottage Grove </li>
-        <li class="resumeTime">12:10</li><li class="resumeAmPm">am</li>
-    </ul>
-    <hr>
-      <ul>
-          <li class="routeone"> 20 </li>
-          <li class="destination"> to Madison </li>
-          <li class="resumeTime">12:10</li><li class="resumeAmPm">am</li>
+        <li><img src="/images/alert.svg" alt="alert symbol" class="alertSymbol"></li>
       </ul>
-      <hr>
-        <ul>
-            <li class="routeone"> 157 </li>
-            <li class="destination"> to Streeterville/Taylor </li>
-            <li class="resumeTime">6:00</li><li class="resumeAmPm">am</li>
+    </section>
+    <section>
+      <header>
+        <h2> In service </h2>
+        <img src="/images/info.svg" alt="additional information button" class="info_button">
+      </header>
+      <ul class="busInfo">
+        <li>
+          <ul class="route">
+            <li class="busLine"> 60 </li>
+            <li class="busDirection"> east </li>
+          </ul>
+        </li>
+        <li class="destination"> to Randolph/Harbor Dr </li>
+        <li class="time"> 1<span class="minutes">min</span></li>
+      </ul>
+      <ul class="busInfo">
+        <li>
+            <ul class="route">
+              <li class="busLine"> 124 </li>
+              <li class="busDirection"> east </li>
+            </ul>
+        </li>
+        <li class="destination"> to Navy Pier </li>
+        <li class="time"> 4<span class="minutes">min</span></li>
+      </ul>
+      <ul class="busInfo">
+        <li>
+          <ul class="route">
+            <li class="busLine"> 151 </li>
+            <li class="busDirection"> north </li>
+          </ul>
+        </li>
+        <li class="destination"> to Devon/Clark </li>
+        <li class="time"> 10<span class="minutes">min</span></li>
+      </ul>
+      <ul class="busInfo">
+        <li>
+          <ul class="route">
+            <li class="busLine"> J14 </li>
+            <li class="busDirection"> south </li>
+          </ul>
+        </li>
+        <li class="destination"> to 103rd/Stony Island </li>
+        <li class="time"> 12<span class="minutes">min</span></li>
+      </ul>
+      <ul class="busInfo">
+        <li>
+            <ul class="route">
+              <li class="busLine"> 124 </li>
+              <li class="busDirection"> south </li>
+            </ul>
+          </li>
+          <li class="destination"> to Navy Pier </li>
+          <li class="time"> 15<span class="minutes">min</span></li>
+        </ul>
+    </section>
+  <section>
+      <header>
+        <h2> Out of service </h2>
+        <img src="/images/info.svg" alt="additional information button" class="info_button">
+      </header>
+        <ul class="busInfo">
+          <li>
+            <ul class="route">
+              <li class="busLine"> 4 </li>
+            </ul>
+          </li>
+        <li class="destination"> to Cottage Grove </li>
+        <li class="resumeTime">12:10 <span class="amPM">am</span></li>
+      </ul>
+      <ul class="busInfo">
+        <li>
+            <ul class="route">
+              <li class="busLine"> 20 </li>
+            </ul>
+          </li>
+          <li class="destination"> to Madison </li>
+          <li class="resumeTime">12:10 <span class="amPM">am</span></li>
+      </ul>
+      <ul class="busInfo">
+        <li>
+            <ul class="route">
+              <li class="busLine"> 157 </li>
+            </ul>
+        </li>
+          <li class="destination"> to Streeterville/Taylor </li>
+          <li class="resumeTime">6:00 <span class="amPM">am</span></li>
         </ul>
   </section>
 </body>
